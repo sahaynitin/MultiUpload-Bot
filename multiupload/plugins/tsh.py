@@ -55,8 +55,9 @@ Server: TransferSH
 **~ File size:** __{humanbytes(amjana.file.size)}__
 NOTE: Files will be deleted after 14 days.'''
 	await msg.edit(hmm, buttons=(
-		[Button.url('📦 Download', r.text)],
-		[Button.url('Support Chat 💭', 't.me/hxsupport')]
-		))
+		  [Button.url('📦 Download', r3.json()['url'])],
+        [Button.url('Support Chat 💭', 't.me/hxsupport')]
+	[Button.url('Support Chat 💭', 't.me/tellybots_support')]
+	))
 
 	os.remove(result.name)
