@@ -69,7 +69,4 @@ Server: UFile
 NOTE: Bandwidth limit is 1MB/s. After a month files will be deleted.'''
 	await msg.edit(hmm, buttons=(
 		[Button.url('📦 Download', r3.json()['url'])],
-		[Button.url('Support Chat 💭', 't.me/hxsupport')]
-		))
-
-	os.remove(result.name)
+		[Button.url('Support Chat 💭', 't.me/tellybots_support')]
