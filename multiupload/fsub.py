@@ -39,5 +39,5 @@ async def _(event):
 		await event.delete()
 		await anjana.send_file(event.chat_id, random.choice(s), reply_to=event)
 		await event.reply(f"Hey [{xx.first_name}]({xx.id}), I am **All in One Media Uploader Bot**", buttons=[
-				Button.url('Support Chat 💭', 't.me/hxsupport')
+				Button.url('Support Chat 💭', 't.me/hxsupport') Button.url('Bots Channel ', 't.me/tellybots_4u
 			])
